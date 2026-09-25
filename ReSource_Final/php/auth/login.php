@@ -34,4 +34,4 @@ $_SESSION['user_id'] = (int)$user['id'];
 
 unset($user['password']);
 
-jsonResponse(true, 'Login successful.', ['user' => $user]); y 
+jsonResponse(true, 'Login successful.', ['user' => $user]);  
